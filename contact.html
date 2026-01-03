@@ -2,7 +2,7 @@
 <html>
 <head>
     <script>
-        var darkMode = true;
+        var darkMode = false;
         if (typeof(Storage) !== "undefined")
             darkMode = (localStorage.getItem("darkMode") === "true");
         
@@ -42,35 +42,8 @@
         </ul>
     </nav>
     <div id="background-img"></div>
-    <div id="main-body" style="padding-bottom: 100px;">
-        <div class="heading">
-            <h1>Ryan Hughes</h1>
-            <div style="margin-top: -26px;"><p>Software Developer | St. Louis, MO</p></div>
-        </div>
-        <div class="section">
-            <h2>About Me</h2>
-            <p>
-                I’m a recent Computer Science graduate with a passion for software engineering in both front-end and back-end development.
-                Through academic and personal projects, I’ve developed a strong foundation in multiple programming languages by combining technical problem-solving with a creative thinking.
-            </p>
-            <p>
-                I’ve worked with tools like Node.js and Unity, blending my interest in art and programming in game and web development.
-                On the systems side, I’ve developed efficient software in C and C++, including a custom game engine with a focus on performance and usability.
-            </p>
-        </div>
-        <div class="section">
-            <h2>Skills</h2>
-            <ul>
-                <li>Proficient in C, C++, Java, Python, C#, and JavaScript.</li>
-                <li>Experience with web development using HTML, CSS, and React, and database management with SQL.</li>
-                <li>Utilized tools such as Unity, Unreal, and Godot for game development.</li>
-                <li>Strong understanding of algorithms and data structures, graphics programming, and operating system architecture.</li>
-            </ul>
-        </div>
-        <div class="section" id="download-button" onclick="document.getElementById('download-link').click()">
-            <p>Download Resume</p>
-            <a href="Resume.pdf" id="download-link" download="Resume.pdf" target="_blank" hidden></a>
-        </div>
+    <div id="main-body">
+        <p>contact</p>
     </div>
     <script src="common.js"></script>
 </body>
